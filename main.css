@@ -5,26 +5,9 @@ body {
   top: 0;
   left: 0;
 }
-#background{
-  position: fixed;
-  top: 0;
-  left: 0;
-
-/* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
-}
 .main{
   margin-left: 220px;
   margin-right: 220px;
-}
-.main div{
-  /*margin: 0;*/
-  /*height: 100%;*/
-  /*height: auto;*/
-  /*background-image: url("assets/bg.jpg");*/
-  /*position: relative;*/
-  /*margin-right: 200px;*/
 }
 div .socialmedia{
   height: 100px;
@@ -32,20 +15,14 @@ div .socialmedia{
   float: right
 }
 #subscribe{
-  /*float: right;*/
   display: inline;
-  /*padding-right: 5%;*/
-    /*padding-top: 5%;*/
-    margin-right: 150px;
-    /*position: absolute;*/
-    text-transform: uppercase;
-    color: #ffffff;
+  margin-right: 150px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .socialmedia ul{
   display: inline;
-  /*position: absolute;*/
   height: 10px;
-  /*float: right;*/
 }
 .socialmedia li{
   display: inline;
@@ -61,7 +38,6 @@ div .socialmedia{
   display: inline;
   width: 450px;
   height:auto;
-  /*padding-top: 100px;*/
 }
 nav ul{
   padding-left: 0;
@@ -72,7 +48,7 @@ nav ul{
   font-size: 23px;
   text-decoration: none;
   display: inline;
-  background-color: red;
+  background-color: #cf0000;
   border-bottom: 4px solid gray;
   /*margin-right: 8px;*/
 }
@@ -81,12 +57,52 @@ nav ul{
 }
 .camera{
   background-image: url("assets/top-image.png");
+  background-repeat: no-repeat;
+  background-size: 120%;
   z-index: 1;
-  border: 4px solid #ffffff;
+  border: 6px solid #ffffff;
   position: relative;
-  height:300px;
+  height: 300px;
+  overflow: hidden;
+  background-position: 0 -100px;
 }
-.peralta{
-  position: absolute;
+.circles{
+  position: relative;
+}
+.circles ul{
+  padding-top: 10px;
+  padding-left: 48%;
+  padding-right: 45%;
+}
+.circles li{
+  display: inline;
+}
+.circles img{
+  /*display: inline;*/
+  height: 20px;
+  border-bottom: 4px solid gray;
+  border-radius: 25px;
+}
+.paragraphs{
+  height: 300px;
+}
+section {
+  display: inline block;
+  position: relative;
+  vertical-align: top;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+.col-3{
+  width: 30%;
+  float:left;
+  background-image: url("http://i.imgur.com/HjLApHB.png");
+  margin-right: 12px;
+  border-bottom: 4px solid gray;
+  text-decoration: none;
+}
+.col-3 ul{
+  padding-top: 0;
 }
