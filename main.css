@@ -85,24 +85,54 @@ nav ul{
 }
 .paragraphs{
   height: 300px;
+  position: relative;
+}
+.two{
+  margin-right: 2px;
 }
 section {
   display: inline block;
-  position: relative;
   vertical-align: top;
+}
+section p{
+  color: #666666;
+}
+.col-1{
+    width: 28%;
+    float:left;
+    background-image: url("http://i.imgur.com/HjLApHB.png");
+    /*margin-right: 12px;*/
+    border-bottom: 4px solid gray;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 4px;
+}
+.col-2{
+  width: 29%;
+  float:left;
+  background-image: url("http://i.imgur.com/HjLApHB.png");
+  /*margin-right: 12px;*/
+  border-bottom: 4px solid gray;
   text-decoration: none;
   padding-left: 20px;
   padding-right: 20px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
-
 .col-3{
-  width: 30%;
+  width: 29%;
   float:left;
   background-image: url("http://i.imgur.com/HjLApHB.png");
-  margin-right: 12px;
+  /*margin-right: 12px;*/
   border-bottom: 4px solid gray;
   text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 4px;
 }
-.col-3 ul{
-  padding-top: 0;
+.readmore p{
+  color: #cf0000;
+  text-align: center;
+  font-weight: bold;
 }
