@@ -3,6 +3,8 @@ body {
   height: 2220px;
   top: 0;
   left: 0;
+  background-color: darkgray;
+  background-blend-mode: darken;
   background-repeat: no-repeat;
 }
 .main{
