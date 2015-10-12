@@ -3,6 +3,7 @@ body {
   height: 2220px;
   top: 0;
   left: 0;
+  background-repeat: no-repeat;
 }
 .main{
   margin-left: 220px;
@@ -83,7 +84,7 @@ nav ul{
 .paragraphs{
   height: 365px;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .paragraphs p{
   color: #666666;
@@ -131,7 +132,7 @@ div .photocenter{
   width: 650px;
   position: relative;
   margin-right: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   float: left;
 }
 .lance img{
@@ -221,12 +222,107 @@ div .photocenter{
   font-weight: bold;
 }
 .skateboards{
+  position: relative;
   display: inline;
+  float: left;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20px;
 }
 .skateboards ul{
   display: inline;
+  padding-left: 35px;
+  /*padding-top: 15px;*/
+  /*float: left;*/
+}
+.skateboards li{
+  display: inline;
+  margin-right: 28px;
+  /*margin-top: 15px;*/
 }
 .skateboards img{
+  border-radius: 120px;
+  /*width: 63px;
+  height: 265px;*/
   display: inline;
-  height: 300px;
+  padding-top: 20px;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+  /*z-index: -1;*/
+}
+ .skateboards img:hover{
+   /*cursor: pointer;*/
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox*/
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform: scale(1.5);
+
+}
+.footer{
+  position: relative;
+  height: 365px;
+  width: 466px;
+  background-image: url("http://i.imgur.com/HjLApHB.png");
+  border-bottom: 4px solid gray;
+  float: left;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.footer h3{
+  float: left;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #666666;
+}
+.footer p{
+  float: left;
+  color: #666666;
+  line-height: 1.5;
+  font-size: 18px;
+  /*margin-right: 20px;*/
+}
+.footer ul{
+  float: left;
+  display inline;
+  padding-top: 20px;
+  padding-left: 1px;
+}
+.footer li{
+  display: inline;
+}
+.footer img{
+  height: 35px;
+  display: inline;
+  float: left
+}
+
+.form{
+  padding-top: 40px;
+  position: relative;
+  height: 325px;
+  width: 468px;
+  float: right;
+  background-image: url("http://i.imgur.com/HjLApHB.png");
+  border-bottom: 4px solid gray;
+}
+#input1 {
+border-left: 4px solid gray;
+}
+#input2 {
+border-left: 4px solid gray;
+font-size: 18px;
+}
+#input3 {
+border-left: 4px solid gray;
+font-size: 18px;
+}
+.submission{
+  float: right;
+  margin-right: 46px;
 }
