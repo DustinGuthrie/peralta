@@ -1,7 +1,6 @@
 body {
   background-image: url("assets/bg.jpg");
   height: 2220px;
-  /*position: fixed;*/
   top: 0;
   left: 0;
 }
@@ -77,7 +76,6 @@ nav ul{
   display: inline;
 }
 .circles img{
-  /*display: inline;*/
   height: 20px;
   border-bottom: 4px solid gray;
   border-radius: 25px;
@@ -95,7 +93,6 @@ nav ul{
     width: 29%;
     float:left;
     background-image: url("http://i.imgur.com/HjLApHB.png");
-    /*margin-right: 12px;*/
     border-bottom: 4px solid gray;
     text-decoration: none;
     padding-left: 20px;
@@ -106,7 +103,6 @@ nav ul{
   width: 28%;
   float:left;
   background-image: url("http://i.imgur.com/HjLApHB.png");
-  /*margin-right: 12px;*/
   border-bottom: 4px solid gray;
   text-decoration: none;
   padding-left: 20px;
@@ -132,7 +128,6 @@ nav ul{
   font-size: 14px;
 }
 div .photocenter{
-  /*height: 600px;*/
   width: 650px;
   position: relative;
   margin-right: 0;
@@ -143,8 +138,6 @@ div .photocenter{
   float: left;
   border: 5px solid #ffffff;
   width: 96%;
-  /*width: 316px;
-  height: 238px;*/
   margin-right: 7px;
   margin-bottom: 5px;
 }
@@ -156,7 +149,6 @@ div .photocenter{
   position: absolute;
   color: #ffffff;
   text-align: center;
-  /*width: 25%;*/
   padding-top: 40px;
   margin-left: 50px;
   font-size: 40px;
@@ -166,8 +158,6 @@ div .photocenter{
   float: left;
   border: 5px solid #ffffff;
   width: 47.6%;
-  /*width: 310px;
-  height: 238px;*/
   margin-bottom: 5px;
 }
 .rodney li{
@@ -175,7 +165,6 @@ div .photocenter{
   position: absolute;
   color: #ffffff;
   text-align: center;
-  /*width: 25%;*/
   padding-top: 40px;
   margin-left: 70px;
   font-size: 40px;
@@ -185,9 +174,6 @@ div .photocenter{
   float: left;
   width: 644px;
   height: 300px;
-  /*height: 260px;*/
-  /*background-image: url("assets/sk8er-1.png");*/
-  /*z-index: -1;*/
   overflow: hidden;
   border-right: 5px solid #ffffff;
   border-bottom: 5px solid #ffffff;
@@ -197,9 +183,6 @@ div .photocenter{
   border: 5px solid #ffffff;
   margin-right: 4px;
   width: 110%;
-  /*transform: scale(1.5);*/
-  /*width: 640px;
-  height: 300px;*/
   overflow: hidden;
 
 }
@@ -208,7 +191,6 @@ div .photocenter{
   position: absolute;
   color: #ffffff;
   text-align: center;
-  /*width: 25%;*/
   padding-top: 130px;
   margin-left: 150px;
   font-size: 40px;
@@ -217,21 +199,26 @@ div .photocenter{
 .tommy{
   position: relative;
   float: right;
+  width: 32%;
+  overflow: hidden;
+  border-left: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
 }
 .tommy img{
     float: right;
-    /*height: 400px;*/
-    width: 315px;
-    /*height: px;*/
-    border: 6px solid #ffffff;
-    transform: scale(1.5);
+    border: 5px solid #ffffff;
+    margin-right: -115px;
+    width: 274%;
+    overflow: hidden;
 }
 .tommy li{
-    /*display: inline;*/
-    padding-top: 100px;
-    position: absolute;
-    color: #ffffff;
-    align-items: center;
+  display: inline;
+  padding-top: 190px;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
 }
 .skateboards{
   display: inline;
@@ -242,5 +229,4 @@ div .photocenter{
 .skateboards img{
   display: inline;
   height: 300px;
-  /*clear: both;*/
 }
