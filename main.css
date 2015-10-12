@@ -130,6 +130,21 @@ nav ul{
   font-weight: bold;
   font-size: 14px;
 }
+.skateboarders{
+  background-color: #cf0000;
+  float: left;
+  margin-left: -220px;
+  margin-top: 60px;
+  margin-right: 20px;
+  border-bottom: 4px solid gray;
+
+}
+.skateboarders h2{
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 div .photocenter{
   width: 650px;
   position: relative;
