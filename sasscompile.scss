@@ -1,0 +1,345 @@
+body {
+  background-image: url("assets/bg.jpg");
+  height: 2220px;
+  top: 0;
+  left: 0;
+  background-color: darkgray;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+.main{
+  margin-left: 220px;
+  margin-right: 220px;
+}
+div .socialmedia{
+  height: 100px;
+  display: inline;
+  float: right
+}
+#subscribe{
+  display: inline;
+  margin-right: 150px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.socialmedia ul{
+  display: inline;
+  height: 10px;
+}
+.socialmedia li{
+  display: inline;
+}
+.socialmedia img{
+  height: 50%;
+  display: inline;
+  border-bottom: 4px solid gray;
+}
+.main nav{
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  width: 450px;
+  height:auto;
+}
+nav ul{
+  padding-left: 0;
+}
+.main nav li{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 23px;
+  text-decoration: none;
+  display: inline;
+  background-color: #cf0000;
+  border-bottom: 4px solid gray;
+}
+.main ul{
+  padding-top: 100px;
+}
+.camera{
+  background-image: url("assets/top-image.png");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  z-index: 1;
+  border: 6px solid #ffffff;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  background-position: 0 -100px;
+}
+.circles{
+  position: relative;
+}
+.circles ul{
+  padding-top: 10px;
+  padding-left: 48%;
+  padding-right: 45%;
+}
+.circles li{
+  display: inline;
+}
+.circles img{
+  height: 20px;
+  border-bottom: 4px solid gray;
+  border-radius: 25px;
+}
+.paragraphs{
+  height: 365px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.paragraphs p{
+  color: #666666;
+  line-height: 1.5;
+}
+.col-1{
+    width: 29%;
+    float:left;
+    background-image: url("http://i.imgur.com/HjLApHB.png");
+    border-bottom: 4px solid gray;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 4px;
+}
+.col-2{
+  width: 28%;
+  float:left;
+  background-image: url("http://i.imgur.com/HjLApHB.png");
+  border-bottom: 4px solid gray;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.col-3{
+  width: 29%;
+  float:left;
+  background-image: url("http://i.imgur.com/HjLApHB.png");
+  /*margin-right: 12px;*/
+  border-bottom: 4px solid gray;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 4px;
+}
+.readmore p{
+  color: #cf0000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+.skateboarders{
+  background-color: #cf0000;
+  float: left;
+  margin-left: -220px;
+  margin-top: 60px;
+  margin-right: 20px;
+  border-bottom: 4px solid gray;
+
+}
+.skateboarders h2{
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+div .photocenter{
+  width: 650px;
+  position: relative;
+  margin-right: 0;
+  margin-bottom: 20px;
+  float: left;
+}
+.lance img{
+  float: left;
+  border: 5px solid #ffffff;
+  width: 96%;
+  margin-right: 7px;
+  margin-bottom: 5px;
+}
+.lance{
+  width: 325px;
+}
+.lance li{
+  display: inline;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.rodney img{
+  float: left;
+  border: 5px solid #ffffff;
+  width: 47.6%;
+  margin-bottom: 5px;
+}
+.rodney li{
+  display: inline;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: 70px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.steve{
+  float: left;
+  width: 644px;
+  height: 300px;
+  overflow: hidden;
+  border-right: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+}
+.steve img{
+  float: left;
+  border: 5px solid #ffffff;
+  margin-right: 4px;
+  width: 110%;
+  overflow: hidden;
+
+}
+.steve li{
+  display: inline;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 130px;
+  margin-left: 150px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.tommy{
+  position: relative;
+  float: right;
+  width: 32%;
+  overflow: hidden;
+  border-left: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+}
+.tommy img{
+    float: right;
+    border: 5px solid #ffffff;
+    margin-right: -115px;
+    width: 274%;
+    overflow: hidden;
+}
+.tommy li{
+  display: inline;
+  padding-top: 190px;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.skateboards{
+  position: relative;
+  display: inline;
+  float: left;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.skateboards ul{
+  display: inline;
+  padding-left: 35px;
+  /*padding-top: 15px;*/
+  /*float: left;*/
+}
+.skateboards li{
+  display: inline;
+  margin-right: 28px;
+  /*margin-top: 15px;*/
+}
+.skateboards img{
+  border-radius: 120px;
+  /*width: 63px;
+  height: 265px;*/
+  display: inline;
+  padding-top: 20px;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+  /*z-index: -1;*/
+}
+ .skateboards img:hover{
+   /*cursor: pointer;*/
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox*/
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform: scale(1.25);
+
+}
+.footer{
+  position: relative;
+  height: 365px;
+  width: 466px;
+  background-image: url("http://i.imgur.com/HjLApHB.png");
+  border-bottom: 4px solid gray;
+  float: left;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.footer h3{
+  float: left;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #666666;
+}
+.footer p{
+  float: left;
+  color: #666666;
+  line-height: 1.5;
+  font-size: 18px;
+  /*margin-right: 20px;*/
+}
+.footer ul{
+  float: left;
+  display: inline;
+  padding-top: 20px;
+  padding-left: 1px;
+}
+.footer li{
+  display: inline;
+}
+.footer img{
+  height: 35px;
+  display: inline;
+  float: left
+}
+
+.form{
+  padding-top: 40px;
+  position: relative;
+  height: 325px;
+  width: 468px;
+  float: right;
+  background-image: url("http://i.imgur.com/HjLApHB.png");
+  border-bottom: 4px solid gray;
+}
+#input1 {
+border-left: 4px solid gray;
+}
+#input2 {
+border-left: 4px solid gray;
+font-size: 18px;
+}
+#input3 {
+border-left: 4px solid gray;
+font-size: 18px;
+}
+.submission{
+  float: right;
+  margin-right: 46px;
+}
