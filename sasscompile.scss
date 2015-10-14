@@ -1,6 +1,15 @@
+$brilliantwhite: #ffffff;
+$peraltared: #cf0000;
+
+
+html{
+  font-size: 1em;
+}
 body {
   background-image: url("assets/bg.jpg");
-  height: 2220px;
+  // height: 2220px;
+  width: 100%;
+  // height: 100%;
   top: 0;
   left: 0;
   background-color: darkgray;
@@ -8,29 +17,41 @@ body {
   background-repeat: no-repeat;
 }
 .main{
-  margin-left: 220px;
-  margin-right: 220px;
+  // margin-left: 220px;
+  // margin-right: 220px;
+  margin-left: 15%;
+  margin-right: 15%;
+
 }
 div .socialmedia{
-  height: 100px;
+  // height: 100px;
+  width: 100%;
   display: inline;
   float: right
 }
 #subscribe{
   display: inline;
-  margin-right: 150px;
+  // padding-left: -15%;
+  float:right;
+  align-items: center;
+  padding-top: 2%;
+  padding-right: 10%;
+  // margin-right: 150px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $brilliantwhite;
 }
 .socialmedia ul{
   display: inline;
-  height: 10px;
+  width: auto;
+  // height: 10px;
 }
 .socialmedia li{
   display: inline;
 }
 .socialmedia img{
-  height: 50%;
+  width: 5%;
+  float: right;
+  margin-left: 5px;
   display: inline;
   border-bottom: 4px solid gray;
 }
@@ -46,11 +67,11 @@ nav ul{
 }
 .main nav li{
   text-transform: uppercase;
-  color: #ffffff;
-  font-size: 23px;
+  color: $brilliantwhite;
+  font-size: 1.47em;
   text-decoration: none;
   display: inline;
-  background-color: #cf0000;
+  background-color: $peraltared;
   border-bottom: 4px solid gray;
 }
 .main ul{
@@ -61,7 +82,7 @@ nav ul{
   background-repeat: no-repeat;
   background-size: 120%;
   z-index: 1;
-  border: 6px solid #ffffff;
+  border: 6px solid $brilliantwhite;
   position: relative;
   height: 300px;
   overflow: hidden;
@@ -125,13 +146,13 @@ nav ul{
   margin-left: 4px;
 }
 .readmore p{
-  color: #cf0000;
+  color: $peraltared;
   text-align: center;
   font-weight: bold;
   font-size: 14px;
 }
 .skateboarders{
-  background-color: #cf0000;
+  background-color: $peraltared;
   float: left;
   margin-left: -220px;
   margin-top: 60px;
@@ -140,7 +161,7 @@ nav ul{
 
 }
 .skateboarders h2{
-  color: #ffffff;
+  color: $brilliantwhite;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -154,7 +175,7 @@ div .photocenter{
 }
 .lance img{
   float: left;
-  border: 5px solid #ffffff;
+  border: 5px solid $brilliantwhite;
   width: 96%;
   margin-right: 7px;
   margin-bottom: 5px;
@@ -174,14 +195,14 @@ div .photocenter{
 }
 .rodney img{
   float: left;
-  border: 5px solid #ffffff;
+  border: 5px solid $brilliantwhite;
   width: 47.6%;
   margin-bottom: 5px;
 }
 .rodney li{
   display: inline;
   position: absolute;
-  color: #ffffff;
+  color: $brilliantwhite;
   text-align: center;
   padding-top: 40px;
   margin-left: 70px;
@@ -193,12 +214,12 @@ div .photocenter{
   width: 644px;
   height: 300px;
   overflow: hidden;
-  border-right: 5px solid #ffffff;
-  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid $brilliantwhite;
+  border-bottom: 5px solid $brilliantwhite;
 }
 .steve img{
   float: left;
-  border: 5px solid #ffffff;
+  border: 5px solid $brilliantwhite;
   margin-right: 4px;
   width: 110%;
   overflow: hidden;
@@ -207,7 +228,7 @@ div .photocenter{
 .steve li{
   display: inline;
   position: absolute;
-  color: #ffffff;
+  color: $brilliantwhite;
   text-align: center;
   padding-top: 130px;
   margin-left: 150px;
@@ -219,12 +240,12 @@ div .photocenter{
   float: right;
   width: 32%;
   overflow: hidden;
-  border-left: 5px solid #ffffff;
-  border-right: 5px solid #ffffff;
+  border-left: 5px solid $brilliantwhite;
+  border-right: 5px solid $brilliantwhite;
 }
 .tommy img{
     float: right;
-    border: 5px solid #ffffff;
+    border: 5px solid $brilliantwhite;
     margin-right: -115px;
     width: 274%;
     overflow: hidden;
@@ -233,7 +254,7 @@ div .photocenter{
   display: inline;
   padding-top: 190px;
   position: absolute;
-  color: #ffffff;
+  color: $brilliantwhite;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -322,7 +343,7 @@ div .photocenter{
 .form{
   padding-top: 40px;
   position: relative;
-  height: 325px;
+  height:325px;
   width: 468px;
   float: right;
   background-image: url("http://i.imgur.com/HjLApHB.png");
@@ -342,4 +363,222 @@ font-size: 18px;
 .submission{
   float: right;
   margin-right: 46px;
+}
+// ipad  w750px, h920px
+@media (min-width: 321px) and (max-width: 770px) {
+  #subscribe{
+    display: none;
+    }
+  .socialmedia{
+      float: none;
+    }
+  .socialmedia img{
+      float: none;
+      width: 10%;
+      margin-left: 12%;
+    }
+  .main ul{
+      padding: 0;
+    }
+  .main nav li{
+      text-transform: uppercase;
+      font-size: .7em;
+    }
+  .camera{
+      height: 200px;
+      overflow: hidden;
+      background-position:left;
+    }
+  #logo{
+    width: 50%;
+  }
+  .paragraphs{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+      h3{
+        font-size: .8em;
+        display: inline block;
+      }
+      .cols{
+        width: 26.8%;
+        // height: 100%;
+        border: 4px solid gray;
+        padding-left: 2%;
+        padding-right: 2%;
+      }
+      .readmore{
+        font-size: .8em;
+    }
+      .cols p{
+        font-size: .5em;
+      }
+  }
+
+  .circles{
+    display: none;
+  }
+  .steve{
+    display: none;
+  }
+  .tommy{
+    display: none;
+  }
+
+div .photocenter {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+  .twop {
+    width: 100%;
+    margin-top: 5px;
+      .lance{
+          // width: 31%;
+          width:102%;
+          li{
+            font-size: 2em;
+            margin-left: 15%;
+          }
+      }
+      .rodney{
+        // width: 66%;
+        width: 206%;
+        float:left;
+
+          li{
+            font-size: 2em;
+            margin-left: 55%;
+          }
+      }
+  }
+  .skateboarders{
+    display: none;
+  }
+  .skateboards{
+    height:auto;
+    padding-top: -5px;
+    align-items: center;
+    li {
+      padding-left: 2.1%;
+      align-items: center;
+      padding-right: 0;
+      margin-right: 0;
+    }
+    img {
+      width: 7%;
+    }
+  }
+  .footer{
+      display: none;
+    }
+    .form{
+  display: none;
+  }
+}
+
+// iphone w310px, h352px
+@media (max-width: 320px){
+  // .socialmedia{
+  //   display: none;
+  // }
+  // .socialmedia li{
+  //   display: none;
+  // }
+  .circles{
+    display: none;
+  }
+  .skateboarders{
+    display: none;
+  }
+  .footer{
+        display: none;
+  }
+  .form{
+    display: none;
+  }
+  #subscribe{
+    display: none;
+    }
+    .socialmedia{
+        float: none;
+      }
+    .socialmedia img{
+        float: none;
+        width: 10%;
+        margin-left: 12%;
+      }
+    .main ul{
+        padding: 0;
+      }
+    .main nav li{
+        // width: 10%;
+        text-transform: uppercase;
+        font-size: .8em;
+      }
+      .camera{
+          height: 100px;
+          overflow: hidden;
+          background-position:left;
+        }
+      #logo{
+        width: 50%;
+      }
+      .paragraphs{
+        margin-top: 5px;
+        width: 100%;
+        height: auto;
+          h3{
+            font-size: .7em;
+            display: inline block;
+          }
+          .cols{
+            width: 85%;
+            // height: 100%;
+            border: 4px solid gray;
+            padding-left: 6%;
+            padding-right: 2%;
+          }
+          .col-1{
+            margin-left: 4px;
+          }
+          .cols p{
+            display: none;
+            // font-size: .5em;
+          }
+          .readmore p{
+            font-size: .6em;
+        }
+      }
+      .photocenter{
+        display: none;
+      }
+      .tommy{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 91%;
+        padding-right: 10px;
+          li{
+            font-size: 1.1em;
+            padding-left:8%;
+          }
+      }
+      .skateboards{
+        height:auto;
+        padding-top: -5px;
+        align-items: center;
+        li {
+          padding-left: 2.1%;
+          align-items: center;
+          padding-right: 0;
+          margin-right: 0;
+        }
+        img {
+          width: 15%;
+        }
+        #dns{
+          display: none;
+        }
+      }
+
 }

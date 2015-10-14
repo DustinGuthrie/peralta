@@ -1,6 +1,9 @@
+html {
+  font-size: 1em; }
+
 body {
   background-image: url("assets/bg.jpg");
-  height: 2220px;
+  width: 100%;
   top: 0;
   left: 0;
   background-color: darkgray;
@@ -8,29 +11,34 @@ body {
   background-repeat: no-repeat; }
 
 .main {
-  margin-left: 220px;
-  margin-right: 220px; }
+  margin-left: 15%;
+  margin-right: 15%; }
 
 div .socialmedia {
-  height: 100px;
+  width: 100%;
   display: inline;
   float: right; }
 
 #subscribe {
   display: inline;
-  margin-right: 150px;
+  float: right;
+  align-items: center;
+  padding-top: 2%;
+  padding-right: 10%;
   text-transform: uppercase;
   color: #ffffff; }
 
 .socialmedia ul {
   display: inline;
-  height: 10px; }
+  width: auto; }
 
 .socialmedia li {
   display: inline; }
 
 .socialmedia img {
-  height: 50%;
+  width: 5%;
+  float: right;
+  margin-left: 5px;
   display: inline;
   border-bottom: 4px solid gray; }
 
@@ -47,7 +55,7 @@ nav ul {
 .main nav li {
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 23px;
+  font-size: 1.47em;
   text-decoration: none;
   display: inline;
   background-color: #cf0000;
@@ -346,3 +354,150 @@ div .photocenter {
 .submission {
   float: right;
   margin-right: 46px; }
+
+@media (min-width: 321px) and (max-width: 770px) {
+  #subscribe {
+    display: none; }
+  .socialmedia {
+    float: none; }
+  .socialmedia img {
+    float: none;
+    width: 10%;
+    margin-left: 12%; }
+  .main ul {
+    padding: 0; }
+  .main nav li {
+    text-transform: uppercase;
+    font-size: .7em; }
+  .camera {
+    height: 200px;
+    overflow: hidden;
+    background-position: left; }
+  #logo {
+    width: 50%; }
+  .paragraphs {
+    margin-top: 5px;
+    width: 100%;
+    height: 100%; }
+    .paragraphs h3 {
+      font-size: .8em;
+      display: inline block; }
+    .paragraphs .cols {
+      width: 26.8%;
+      border: 4px solid gray;
+      padding-left: 2%;
+      padding-right: 2%; }
+    .paragraphs .readmore {
+      font-size: .8em; }
+    .paragraphs .cols p {
+      font-size: .5em; }
+  .circles {
+    display: none; }
+  .steve {
+    display: none; }
+  .tommy {
+    display: none; }
+  div .photocenter {
+    width: 100%;
+    margin-bottom: 0; }
+  .twop {
+    width: 100%;
+    margin-top: 5px; }
+    .twop .lance {
+      width: 102%; }
+      .twop .lance li {
+        font-size: 2em;
+        margin-left: 15%; }
+    .twop .rodney {
+      width: 206%;
+      float: left; }
+      .twop .rodney li {
+        font-size: 2em;
+        margin-left: 55%; }
+  .skateboarders {
+    display: none; }
+  .skateboards {
+    height: auto;
+    padding-top: -5px;
+    align-items: center; }
+    .skateboards li {
+      padding-left: 2.1%;
+      align-items: center;
+      padding-right: 0;
+      margin-right: 0; }
+    .skateboards img {
+      width: 7%; }
+  .footer {
+    display: none; }
+  .form {
+    display: none; } }
+
+@media (max-width: 320px) {
+  .circles {
+    display: none; }
+  .skateboarders {
+    display: none; }
+  .footer {
+    display: none; }
+  .form {
+    display: none; }
+  #subscribe {
+    display: none; }
+  .socialmedia {
+    float: none; }
+  .socialmedia img {
+    float: none;
+    width: 10%;
+    margin-left: 12%; }
+  .main ul {
+    padding: 0; }
+  .main nav li {
+    text-transform: uppercase;
+    font-size: .8em; }
+  .camera {
+    height: 100px;
+    overflow: hidden;
+    background-position: left; }
+  #logo {
+    width: 50%; }
+  .paragraphs {
+    margin-top: 5px;
+    width: 100%;
+    height: auto; }
+    .paragraphs h3 {
+      font-size: .7em;
+      display: inline block; }
+    .paragraphs .cols {
+      width: 85%;
+      border: 4px solid gray;
+      padding-left: 6%;
+      padding-right: 2%; }
+    .paragraphs .col-1 {
+      margin-left: 4px; }
+    .paragraphs .cols p {
+      display: none; }
+    .paragraphs .readmore p {
+      font-size: .6em; }
+  .photocenter {
+    display: none; }
+  .tommy {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 91%;
+    padding-right: 10px; }
+    .tommy li {
+      font-size: 1.1em;
+      padding-left: 8%; }
+  .skateboards {
+    height: auto;
+    padding-top: -5px;
+    align-items: center; }
+    .skateboards li {
+      padding-left: 2.1%;
+      align-items: center;
+      padding-right: 0;
+      margin-right: 0; }
+    .skateboards img {
+      width: 15%; }
+    .skateboards #dns {
+      display: none; } }
