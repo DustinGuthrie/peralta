@@ -1,15 +1,12 @@
 $brilliantwhite: #ffffff;
 $peraltared: #cf0000;
 
-
 html{
   font-size: 1em;
 }
 body {
   background-image: url("assets/bg.jpg");
-  // height: 2220px;
   width: 100%;
-  // height: 100%;
   top: 0;
   left: 0;
   background-color: darkgray;
@@ -17,33 +14,27 @@ body {
   background-repeat: no-repeat;
 }
 .main{
-  // margin-left: 220px;
-  // margin-right: 220px;
   margin-left: 15%;
   margin-right: 15%;
 
 }
 div .socialmedia{
-  // height: 100px;
   width: 100%;
   display: inline;
   float: right
 }
 #subscribe{
   display: inline;
-  // padding-left: -15%;
   float:right;
   align-items: center;
   padding-top: 2%;
   padding-right: 10%;
-  // margin-right: 150px;
   text-transform: uppercase;
   color: $brilliantwhite;
 }
 .socialmedia ul{
   display: inline;
   width: auto;
-  // height: 10px;
 }
 .socialmedia li{
   display: inline;
@@ -105,7 +96,8 @@ nav ul{
   border-radius: 25px;
 }
 .paragraphs{
-  height: 365px;
+  // height: 365px;
+  width: 100%;
   position: relative;
   margin-bottom: 20px;
 }
@@ -181,7 +173,9 @@ div .photocenter{
   margin-bottom: 5px;
 }
 .lance{
+  // width: 325px;
   width: 325px;
+
 }
 .lance li{
   display: inline;
@@ -364,6 +358,8 @@ font-size: 18px;
   float: right;
   margin-right: 46px;
 }
+
+// ************************************
 // ipad  w750px, h920px
 @media (min-width: 321px) and (max-width: 770px) {
   #subscribe{
@@ -395,14 +391,12 @@ font-size: 18px;
   .paragraphs{
     margin-top: 5px;
     width: 100%;
-    height: 100%;
       h3{
         font-size: .8em;
         display: inline block;
       }
       .cols{
         width: 26.8%;
-        // height: 100%;
         border: 4px solid gray;
         padding-left: 2%;
         padding-right: 2%;
@@ -434,7 +428,6 @@ div .photocenter {
     width: 100%;
     margin-top: 5px;
       .lance{
-          // width: 31%;
           width:102%;
           li{
             font-size: 2em;
@@ -442,7 +435,6 @@ div .photocenter {
           }
       }
       .rodney{
-        // width: 66%;
         width: 206%;
         float:left;
 
@@ -477,14 +469,9 @@ div .photocenter {
   }
 }
 
+// ******************************
 // iphone w310px, h352px
 @media (max-width: 320px){
-  // .socialmedia{
-  //   display: none;
-  // }
-  // .socialmedia li{
-  //   display: none;
-  // }
   .circles{
     display: none;
   }
@@ -512,7 +499,6 @@ div .photocenter {
         padding: 0;
       }
     .main nav li{
-        // width: 10%;
         text-transform: uppercase;
         font-size: .8em;
       }
